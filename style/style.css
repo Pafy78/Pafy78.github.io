@@ -180,6 +180,32 @@ hr.separate{
 
 
 /*--------------------------------------------------------------------------------------------*/
+/* Experience */
+/*--------------------------------------------------------------------------------------------*/
+#experiences .row{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    color: white;
+}
+#experiences .image{
+    position: absolute;
+    top: 0;
+}
+#experiences ul{
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+/*--------------------------------------------------------------------------------------------*/
 /* Contact */
 /*--------------------------------------------------------------------------------------------*/
 .contact{
