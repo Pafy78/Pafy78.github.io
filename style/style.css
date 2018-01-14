@@ -251,6 +251,13 @@ hr.separate{
 }
 #contact .image img{
     width: 100%;
+    height: auto:
+}
+@media screen and (max-width: 1000px) {
+    #contact .image img{
+        width: auto;
+        height: 100%:
+    }
 }
 #contact .cover-back{
     position: absolute;
