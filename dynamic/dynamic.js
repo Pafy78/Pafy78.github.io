@@ -4,7 +4,7 @@ $('a[href^="#"]').click(function(){
 		return;
 	}
 	$('html, body').animate({
-		scrollTop:$(the_id).offset().top
+		scrollTop:$(the_id).offset().top - 40
 	}, 'slow');
 	return false;
 });
