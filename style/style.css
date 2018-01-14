@@ -1,9 +1,19 @@
 body{
     font-family: 'Open Sans';
+    background: -moz-linear-gradient(top, rgb(158, 158, 158) 0%,rgb(100, 108, 125) 100%); 
+    background: -webkit-linear-gradient(top, rgb(158, 158, 158) 0%,rgb(100, 108, 125) 100%); 
+    background: linear-gradient(to bottom, rgb(158, 158, 158) 0%,rgb(100, 108, 125) 100%); 
+}
+.button{
+    background-color: #FF5D31;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.25);
+    border-radius: 4px;
 }
 
 
-
+/*--------------------------------------------------------------------------------------------*/
+/* Top bar */
+/*--------------------------------------------------------------------------------------------*/
 .navbar-default{
     background-image: none;
     background-color: white;
@@ -28,8 +38,9 @@ body{
 
 
 
-
-
+/*--------------------------------------------------------------------------------------------*/
+/* Cover */
+/*--------------------------------------------------------------------------------------------*/
 .cover{
     position: relative;
     display: flex;
@@ -80,8 +91,30 @@ body{
     width: 80%;
 }
 
-.button{
-    background-color: #FF5D31;
-    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.25);
-    border-radius: 4px;
+
+
+
+/*--------------------------------------------------------------------------------------------*/
+/* Project */
+/*--------------------------------------------------------------------------------------------*/
+.projet{
+    margin-top: 20px;
+    padding: 20px;
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.5);
+    width: 50%;
+    border-radius: 8px;
+}
+.projet h2{
+    color:#FF5D31;
+    font-weight: bold;
+    font-size: 20px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.project p{
+    color: black;
+    font-size: 14px;
 }
